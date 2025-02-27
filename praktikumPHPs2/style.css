@@ -1,0 +1,46 @@
+/* Styling untuk tabel */
+body {
+    background-color: #1a1a1a;
+    color: #FFD700;
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #000;
+    color: #FFD700;
+}
+
+th, td {
+    border: 5px solid #d5621a;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #FFD700;
+    color: black;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #333;
+}
+
+tr:nth-child(odd) {
+    background-color: #222;
+}
+
+tr:hover {
+    background-color: #444;
+    transition: 0.3s;
+}
+
+/* Styling untuk judul */
+h3 {
+    color: #FFD700;
+    text-align: center;
+    margin-top: 20px;
+}
