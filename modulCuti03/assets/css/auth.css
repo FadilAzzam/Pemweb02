@@ -1,0 +1,65 @@
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #e0e0e0, #bdbdbd);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.login-container {
+    background-color: #fef1df;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    max-width: 900px;
+    width: 100%;
+    padding : 30px 0px;
+    padding-right: 30px;
+}
+
+.illustration {
+    background: url('../img/login2.png') no-repeat center;
+    background-size: contain;
+    min-height: 400px;
+}
+
+.illustration-admin {
+    background: url('../img/admin_regis.png') no-repeat center;
+    background-size: contain;
+    min-height: 400px;
+    width: 45%;
+    margin: 0 35px;
+}
+
+.form-section {
+    background-color: #fff;
+    width: 400px;
+    border-radius: 25px;
+}
+
+.form-section h2 {
+    margin-bottom: 10px;
+}
+
+.form-section p {
+    color: #777;
+    margin-bottom: 2rem;
+}
+
+.form-section .btn-login, .container .btn-login {
+    padding: 10px 20px;
+    background-color: #6c63ff;
+    color: #fff;
+    font-weight: bold;
+}
+
+.form-section .social button {
+    width: 48%;
+}
+
+@media (max-width: 768px) {
+    .illustration {
+        min-height: 200px;
+    }
+}

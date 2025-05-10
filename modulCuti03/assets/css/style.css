@@ -1,0 +1,13 @@
+/* Navbar saat sidebar open */
+body.sidebar-open #navbar {
+    margin-left: 250px;
+    width: calc(100% - 250px);
+    transition: all 0.3s ease;
+}
+
+/* Navbar saat sidebar collapsed */
+body.sidebar-collapsed #navbar {
+    margin-left: 0;
+    width: 100%;
+    transition: all 0.3s ease;
+}
